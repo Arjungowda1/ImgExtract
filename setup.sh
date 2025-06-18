@@ -3,8 +3,8 @@
 
 set -e -x
 
-# python -m pip install --upgrade pip
-# python -m pip install poetry
+python -m pip install --upgrade pip
+python -m pip install poetry
 
 # Install project dependencies
 echo "Installing project dependencies..."
