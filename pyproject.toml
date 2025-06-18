@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "img-extract"
+version = "1.0.0"
+description = "FastAPI service to detect drawings, math equations and tables in the input image/pdf using a detectron2 model"
+authors = ["Arjun C E <arjunce15@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "app" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+Pillow = "^11.2.1"
+opencv-python = "^4.7.0"
+python-multipart = "^0.0.9"
+matplotlib = "^3.8.3"
+pdf2image = "^1.17.0"
+
+[tool.poetry.scripts]
+image-extract = "app.main:app"
+service = "app.server:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
