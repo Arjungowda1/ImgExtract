@@ -1,6 +1,6 @@
 # Image Extract
 
-CHECK OUT LIVE DEMO: [here] (https://huggingface.co/spaces/aaarjunnnnnnn/ImgExtract) 
+CHECK OUT LIVE DEMO: [here](https://huggingface.co/spaces/aaarjunnnnnnn/ImgExtract) 
 
 A FastAPI service that detects and extracts drawings, math equations, and tables from images and PDFs using Detectron2. 
 - Trained on patent documents.
